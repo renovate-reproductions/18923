@@ -4,5 +4,6 @@
        ":label(renovate)",
        ":dependencyDashboard",
     "group:monorepos"
-     ]
+     ],
+    "ignorePaths": ["**/node_modules/**","pyproject.toml"]
 }
